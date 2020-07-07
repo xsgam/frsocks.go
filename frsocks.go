@@ -7,8 +7,8 @@ import (
 	"os"
 	"net"
 	"io"
-	socks5 "go-socks5"
-	"yamux"
+	socks5 "github.com/armon/go-socks5"
+	yamux "github.com/hashicorp/yamux"
 )
 
 var session *yamux.Session
