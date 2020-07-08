@@ -7,14 +7,14 @@ https://github.com/jmeubank/tdm-gcc/releases/download/v9.2.0-tdm64-1/tdm64-gcc-9
 ~~~
 - Run my_build.bat to build Go executables.
 
-### useage
+### Usage
 
-- 正向代理
+- Forward proxy 
 ~~~
 frsocks -sockstype fsocks -listen 1080
 ~~~
 
-- 反向代理
+- Reverse proxy 
 ~~~
 client:
 frsocks -sockstype rsocks -listen 1111 -socks 127.0.0.1:2222
@@ -23,7 +23,7 @@ Transit server:
 frsocks -sockstype rsocks -connect 1.1.1.1:1111
 ~~~
 
-connect proxy: client 2222
+connect Client 2222  <--- Server
 
 ### from 3gstudent's Homework-of-Go
 Go code examples of my blog. 
